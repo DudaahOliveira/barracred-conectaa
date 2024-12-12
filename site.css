@@ -1,0 +1,239 @@
+/* Resetando os estilos padrões */
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #0fdd20;
+    color: #c01b1b;
+}
+
+header {
+    background-color: #0ecf3e;
+    color: #130303;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #09e691;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.home {
+    background-color: #06ad01;
+    color: #130202;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.home h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #008547;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #085f2c;
+}
+
+.sobre, .detalhes, .equipe, .contato {
+    padding: 60px 20px;
+    margin: 20px 0;
+    background-color: #050404;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sobre h2, .detalhes h2, .equipe h2, .contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.sobre p, .detalhes p, .contato p {
+    font-size: 1.1rem;
+}
+
+.detalles ul {
+    margin-left: 20px;
+}
+
+.membro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.membro h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.membro p {
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #35ad10;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: #030000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* Resetando os estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos da Seção de Detalhes */
+.detalhes {
+    padding: 60px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detalhes .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.detalhes .fases {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.detalhes .fase {
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.detalhes .fase:hover {
+    transform: translateY(-10px);
+}
+
+.detalhes .fase ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .detalhes .fases {
+        flex-direction: column;
+    }
+
+    .detalhes .fase {
+        width: 100%;
+    }
+}
+
+.imagem-fundo {
+    background-image: url('img/conecta.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200vh; /* A altura será 100% da altura da tela */
+}    
